@@ -1,41 +1,77 @@
-Water Quality Prediction - RMS
-This project aims to predict multiple water quality parameters using machine learning techniques, specifically MultiOutputRegressor wrapped around a RandomForestRegressor. It was developed as part of a one-month AICTE Virtual Internship sponsored by Shell in June 2025.
+# 💧 Water Quality Prediction - RMS
 
-Overview
-Access to clean water is a critical global concern. Accurate prediction of various water quality metrics can help in early detection of pollution and ensure timely intervention.
+> 🧠 Machine Learning-based multi-parameter water quality prediction  
+> 📅 Developed during the **AICTE Virtual Internship - June 2025**  
+> 🎓 Sponsored by **Shell** & conducted by **Edunet Foundation**
 
-In this project, we:
+---
 
-Collected and preprocessed real-world water quality datasets
-Used supervised machine learning for multi-target regression
-Built a pipeline using MultiOutputRegressor with RandomForestRegressor
-Evaluated the model using appropriate regression metrics
+## 🌍 Overview
 
-Technologies Used
-Python 3.12
-Pandas, NumPy – Data handling
-Scikit-learn – Machine learning model and evaluation
-Matplotlib, Seaborn – Data visualization
-Jupyter Notebook – Interactive experimentation
+Access to clean water is a **critical global concern**. This project leverages **machine learning** to predict multiple water quality parameters, enabling **early detection of pollution** and promoting timely environmental intervention.
 
-Predicted Water Quality Parameters
-The model predicts multiple water quality parameters such as:
+### 📌 Key Goals:
+- Predict multiple water quality indicators using supervised ML
+- Enable scalable and accurate environmental monitoring
 
-NH4
-BOD5 (BSK5)
-Colloids
-O2, NO3, NO2, SO4, PO4 and
-CL
+---
 
-Model Performance
-The model was evaluated using:
+## 📊 Predicted Water Quality Parameters
 
-R² Score
-Mean Squared Error (MSE)
-Performance was acceptable across all parameters
+The model predicts the following parameters:
 
-Internship Details
-Internship Type: AICTE Virtual Internship - Edunet Foundation
-Sponsor: Shell
-Duration: June 2025 (1 month)
-Focus Area: Machine Learning in Environmental Monitoring
+- NH₄ (Ammonium)
+- BOD5 / BSK5 (Biochemical Oxygen Demand)
+- Colloids
+- O₂ (Dissolved Oxygen)
+- NO₃ (Nitrate)
+- NO₂ (Nitrite)
+- SO₄ (Sulfate)
+- PO₄ (Phosphate)
+- Cl (Chloride)
+
+---
+
+## 🧪 Approach & Methodology
+
+- 🔍 **Data Collection & Preprocessing**
+  - Real-world water quality datasets
+  - Data cleaning and transformation using Pandas/NumPy
+
+- 🧠 **Modeling**
+  - Used `MultiOutputRegressor` wrapped around `RandomForestRegressor`
+  - Handled multi-target regression using Scikit-learn pipeline
+
+- 📏 **Evaluation Metrics**
+  - R² Score
+  - Mean Squared Error (MSE)
+
+> ⚙️ Results showed **acceptable performance across all predicted parameters**.
+
+---
+
+## 🧰 Technologies Used
+
+| Tool / Library     | Purpose                        |
+|--------------------|--------------------------------|
+| Python 3.12        | Programming Language           |
+| Pandas, NumPy      | Data Handling                  |
+| Scikit-learn       | Machine Learning Modeling      |
+| Matplotlib, Seaborn| Data Visualization             |
+| Jupyter Notebook   | Interactive Development        |
+
+---
+
+## 🎓 Internship Details
+
+| Detail            | Description                             |
+|------------------|-----------------------------------------|
+| **Type**         | AICTE Virtual Internship                |
+| **Organization** | Edunet Foundation                      |
+| **Sponsor**      | Shell                                   |
+| **Duration**     | June 2025 (1 month)                    |
+| **Focus Area**   | Machine Learning in Environmental Monitoring |
+
+---
+
+
